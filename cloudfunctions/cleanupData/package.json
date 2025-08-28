@@ -1,0 +1,14 @@
+{
+  "name": "cleanup-data",
+  "version": "1.0.0",
+  "description": "数据定时清理云函数",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "wx-server-sdk": "latest"
+  },
+  "author": "",
+  "license": "ISC"
+}
