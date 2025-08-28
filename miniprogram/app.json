@@ -1,0 +1,71 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/modifyName/modifyName",
+    "pages/profile/profile",
+    "pages/report/report",
+    "pages/myReport/myReport",
+    "pages/example/index"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#4CAF50",
+    "navigationBarTitleText": "配送人员登记系统",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#4CAF50",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/icons/home.png",
+        "selectedIconPath": "images/icons/home-active.png"
+      },
+      {
+      "pagePath": "pages/report/report",
+      "text": "报表中心",
+      "iconPath": "images/icons/baobiao-transparent.png",
+      "selectedIconPath": "images/icons/baobiao-active.png"
+    },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "个人中心",
+        "iconPath": "images/icons/usercenter.png",
+        "selectedIconPath": "images/icons/usercenter-active.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userInfo": {
+      "desc": "你的用户信息将用于小程序用户登录和身份验证"
+    },
+    "scope.camera": {
+      "desc": "你的摄像头权限将用于小程序扫码登记配送功能"
+    },
+    "scope.userProfile": {
+      "desc": "你的微信用户信息将用于小程序登录和身份验证"
+    },
+    "scope.backgroundfetch": {
+      "desc": "用于后台数据同步和更新检查"
+    }
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "lazyCodeLoading": "requiredComponents",
+  "__usePrivacyCheck__": true,
+
+  "useExtendedLib": {
+    "weui": true
+  },
+  "plugins": {},
+  "functionalPages": {
+    "independent": true
+  }
+}
